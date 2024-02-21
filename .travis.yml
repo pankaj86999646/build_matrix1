@@ -1,0 +1,12 @@
+---
+jobs:
+  include:
+    rvm:
+      - 2.5.9
+      - 2.2
+    gemfile:
+      - gemfiles/Gemfile.rails-3.2.0
+      - gemfiles/Gemfile.rails-3.0.1
+    env:
+      - ISOLATED=true
+      - ISOLATED=false
