@@ -10,3 +10,5 @@ jobs:
     env:
       - ISOLATED=true
       - ISOLATED=false
+    script:
+      - cd project && bundle exec rake
