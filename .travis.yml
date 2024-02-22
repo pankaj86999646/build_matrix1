@@ -5,3 +5,7 @@ gemfile:
 env:
   - ISOLATED=true
   - ISOLATED=false
+install:
+  - bundle install
+script:
+  - bundle exec rake test
