@@ -1,4 +1,0 @@
-# Example Gemfile for Rails 3.0.x
-source 'https://rubygems.org'
-gem 'rails', '7.0.0'
-# Add other dependencies as needed
