@@ -1,10 +1,9 @@
 ---
 jobs:
   include:
-    - os: linux
-      language: python
-      rvm:
-        - 2.5.9
-gemfile: Gemfile
-env:
-  - ISOLATED=true
+    rvm:
+      - 2.5
+    gemfile:
+      - gemfiles/Gemfile.rails-3.2.x
+    env:
+      - ISOLATED=true
