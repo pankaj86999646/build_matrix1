@@ -7,3 +7,6 @@ jobs:
       - gemfiles/Gemfile.rails-3.2.x
     env:
       - ISOLATED=true
+    script:
+      - bundle install
+      - bundle exec rake
