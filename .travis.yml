@@ -1,6 +1,6 @@
 jobs:
   include:
-  - rvm: 2.5
+  - rvm: 2.5.9
     gemfile: gemfiles/Gemfile.rails-3.2.x
     env: ISOLATED=false
   - rvm: 2.2
