@@ -6,6 +6,6 @@ env:
   - ISOLATED=true
   - ISOLATED=false
 install:
-  - bundle install
+  - bundle _1.17.3_ install
 script:
   - bundle exec rake test
