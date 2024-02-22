@@ -1,7 +1,12 @@
 rvm:
-- 2.7.0
-gemfile:
-- gemfiles/Gemfile.rails-7.0.0
-env:
-- ISOLATED=true
-- ISOLATED=false
+  - jruby
+  - "2.4"
+  - "2.5"
+  - "2.6"
+  - "2.7"
+before_script:
+        - gem install faraday -v 1.0.1
+script:
+  - bundle exec rake
+  - gem build travis.gemspec
+  - gem install travis-*.gem
