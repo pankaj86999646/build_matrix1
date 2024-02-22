@@ -1,5 +1,10 @@
-rvm:
-- 2.5.9
+---
+jobs:
+  include:
+    - os: linux
+      language: python
+      rvm:
+        - 2.5.9
 gemfile: Gemfile
 env:
-- ISOLATED=true
+  - ISOLATED=true
