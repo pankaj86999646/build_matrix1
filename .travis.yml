@@ -1,7 +1,7 @@
 rvm:
-- 2.5.9
+- 2.7.0
 gemfile:
-- gemfiles/Gemfile.rails-3.0.20
+- gemfiles/Gemfile.rails-7.0.0
 env:
 - ISOLATED=true
 - ISOLATED=false
