@@ -1,12 +1,7 @@
-language: python
-python:
-  - '3.8'
-  - '3.7'
-  - '2.7'
-jobs:
-  include:
-    - python: '3.8' # this is not strictly necessary
-      env: EXTRA_TESTS=true
-    - python: '3.7'
-      env: EXTRA_TESTS=true
-script: env $EXTRA_TESTS ./test.py $TEST_SUITE
+rvm:
+- 2.5.9
+gemfile:
+- gemfiles/Gemfile.rails-3.2.x
+env:
+- ISOLATED=true
+- ISOLATED=false
